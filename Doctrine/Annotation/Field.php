@@ -52,6 +52,7 @@ class Field extends Annotation
      */
     private static $TYP_SIMPLE_MAPPING = array(
         'string' => '_s',
+        'string_ci' => '_ci',
         'text' => '_t',
         'date' => '_dt',
         'boolean' => '_b',
